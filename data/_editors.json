@@ -1,22 +1,27 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
+        "name": "Elias",
         "link": ""
     },
     {
+        "role": "owner",
+        "name": "Lexen2k",
+        "link": ""
+    },
+    {   
         "role": "admin",
         "name": "Eneko",
         "link": ""
     },
     {
         "role": "helper",
-        "name": "Eneko",
+        "name": "i3_corbeaux",
         "link": ""
     },
     {
         "role": "trial",
-        "name": "i3_corbeaux",
+        "name": "neromi",
         "link": ""
     },
     {
