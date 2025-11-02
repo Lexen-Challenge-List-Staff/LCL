@@ -6,13 +6,14 @@
     "verifier": "Elias",
     "verification": "https://youtu.be/7gEUCzxjhmo",
     "percentToQualify": 100,
-    "fps": "FPS: Any"
+    "fps": "FPS: Any",
     "records": [
         {
             "user": "Elias",
             "link": "https://youtu.be/7gEUCzxjhmo",
             "percent": 100,
-            "hz": 240,
+            "hz": 240
         }
     ]
 }
+
