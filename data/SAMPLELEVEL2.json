@@ -1,18 +1,18 @@
 {
-    "id": 120874182,
-    "name": "2 FPJ",
+    "id": 127791663,
+    "name": "SpeedBuild",
     "author": "Lexen2K",
     "creators": ["Lexen2K"],
-    "verifier": "Elias",
-    "verification": "https://youtu.be/Q69uyNvSF_c",
+    "verifier": "Lexen2k",
+    "verification": "https://youtu.be/g3N42mI3VAA",
     "percentToQualify": 100,
-    "fps": "CBF",
+    "fps": "60",
     "records": [
         {
-            "user": "Elias",
-            "link": "https://youtu.be/Q69uyNvSF_c",
-            "percent": 100,
-            "hz": "CBF"
+            "user": "",
+            "link": " ",
+            "percent": ,
+            "hz": ""
         }
     ]
 }
