@@ -15,7 +15,7 @@ export default {
     }),
     template: `
         <main v-if="loading">
-            <Spinner></Spinner>
+            <p>Loading leaderboard...</p>
         </main>
         <main v-else class="page-leaderboard-container">
             <div class="page-leaderboard">
