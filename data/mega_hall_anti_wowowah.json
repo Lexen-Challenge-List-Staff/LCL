@@ -1,0 +1,18 @@
+{
+    "id": 127791019,
+    "name": "mega hall anti wowowah",
+    "author": "Elias",
+    "creators": ["Elias"],
+    "verifier": "Elias",
+    "verification": "https://youtu.be/OBhxKd26IDY",
+    "percentToQualify": 100,
+    "fps": "240",
+    "records": [
+        {
+            "user": "Lexen2K",
+            "link": "https://youtu.be/g3N42mI3VAA",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
