@@ -98,10 +98,6 @@ export default {
         },
     },
     async mounted() {
-        console.log("Calling fetchLeaderboard...");
-        const result = await fetchLeaderboard();
-        console.log("Result:", result);
-
         const [leaderboard, err] = await fetchLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
