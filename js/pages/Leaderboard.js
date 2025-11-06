@@ -15,7 +15,7 @@ export default {
     }),
     template: `
         <main v-if="loading">
-            <p>Loading leaderboard...</p>
+            <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
             <div class="page-leaderboard">
@@ -98,6 +98,10 @@ export default {
         },
     },
     async mounted() {
+        console.log("Calling fetchLeaderboard...");
+        const result = await fetchLeaderboard();
+        console.log("Result:", result);
+
         const [leaderboard, err] = await fetchLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
