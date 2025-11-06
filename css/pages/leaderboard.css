@@ -36,7 +36,7 @@
     width: 100%;
 }
 .page-leaderboard .board .rank {
-    padding-block: 1rem;
+    padding-block: 1rem; 
     text-align: end;
 }
 .page-leaderboard .board .total {
