@@ -177,5 +177,6 @@ export default {
     methods: {
         embed,
         score,
+        localize
     },
 };
