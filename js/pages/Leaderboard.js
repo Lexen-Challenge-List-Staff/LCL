@@ -44,7 +44,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h3>{{ entry.total }}</h3>
+                        <h3>{{ entry.total }}pts</h3>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
@@ -55,7 +55,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }} pts</p>
+                                    <p>+{{ localize(score.score) }}pts</p>
                                 </td>
                             </tr>
                         </table>
@@ -69,7 +69,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }} pts</p>
+                                    <p>+{{ localize(score.score) }}pts</p>
                                 </td>
                             </tr>
                         </table>
@@ -83,7 +83,7 @@ export default {
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
                                 </td>
                                 <td class="score">
-                                    <p>+{{ localize(score.score) }} pts</p>
+                                    <p>+{{ localize(score.score) }}pts</p>
                                 </td>
                             </tr>
                         </table>
