@@ -1,6 +1,6 @@
 import { round, score } from './score.js';
 
-/**
+/*
  * Path to directory containing `_list.json` and all levels
  */
 const dir = '/data';
@@ -91,7 +91,7 @@ export async function fetchLeaderboard() {
                 completed.push({
                     rank: rank + 1,
                     level: level.name,
-                    score: score(rank + 1, 100, level.percentToQualify),
+                    score: round(score(rank + 1, 100, level.percentToQualify)),
                     link: record.link,
                 });
                 return;
