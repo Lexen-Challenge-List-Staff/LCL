@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { embed } from "../util.js";
+import { embed, localize } from "../util.js";
 import { score } from "../score.js";
 import { fetchEditors, fetchList } from "../content.js";
 
@@ -15,7 +15,7 @@ const roleIconMap = {
 };
 
 export default {
-    components: { Spinner, LevelAuthors },
+    components: { Spinner, LevelAuthors, localize },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
