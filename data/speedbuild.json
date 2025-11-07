@@ -6,13 +6,13 @@
     "verifier": "Lexen2k",
     "verification": "https://youtu.be/g3N42mI3VAA",
     "percentToQualify": 100,
-    "fps": "60",
+    "fps": "Any",
     "records": [
         {
             "user": "Lexen2K",
             "link": "https://youtu.be/g3N42mI3VAA",
             "percent": 100,
-            "hz": 60
+            "hz": "CBF"
         }
     ]
 }
